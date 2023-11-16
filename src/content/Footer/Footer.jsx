@@ -1,6 +1,6 @@
 import React from 'react';
 import module from './Footer.module.scss'
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import aboutUs from '../../pages/aboutUs/AboutUs';
 // import { useContext } from 'react';
 
@@ -32,8 +32,8 @@ function Footer(props) {
         </div>
         <div className={module.footer_block3}>
           <ul>
-            <li className={module.ul2}>Контакты</li>
-            <li className={module.ul2}>Скидки</li>
+            <Link to={'/japan'}><li className={module.ul2}>Контакты</li></Link>
+            <Link to={'/eastern'}><li className={module.ul2}>Скидки</li></Link>
             <li className={module.ul2}>Условия использования</li>
           </ul>
           <div className={module.icons}>

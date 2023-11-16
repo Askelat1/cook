@@ -55,6 +55,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20vh;
 
     .block_1 {
         display: block;
@@ -111,8 +112,8 @@ a {
         }
     }
 
-    .rice {
-        width: 700px;
+    .ramen {
+        // width: 700px;
         height: auto;
         // margin-bottom: 20vh;
     }
@@ -130,7 +131,7 @@ a {
 .container_2{
     display: flex;
     justify-content: space-between;
-    // align-items: center;
+    align-items: center;
 
 
     .block_3 {
@@ -165,8 +166,8 @@ a {
     
     }
 
-    .chopsticks {
-        width: 300px;
+    .teapot {
+        width: 500px;
     }
 
 }

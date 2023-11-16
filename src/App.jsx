@@ -12,6 +12,8 @@ import SignIn from './content/Regist/SignIn.jsx'
 import Footer from './content/Footer/Footer.jsx'
 import AboutUs from './pages/aboutUs/AboutUs';
 import Korean from './pages/Catalog/Korean.jsx';
+import Japan from './pages/Catalog/Japan.jsx';
+import Eastern from './pages/Catalog/Eastern.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +28,8 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/signIn" element={<SignIn />} />
           <Route path="/korean" element={<Korean />} />
+          <Route path="/japan" element={<Japan />} />
+          <Route path="/eastern" element={<Eastern />} />
         </Routes>
         <Footer />
       </div>
